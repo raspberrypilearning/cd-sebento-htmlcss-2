@@ -1,6 +1,6 @@
 title: cd-sebento-htmlcss-2
 hero_image: images/banner.png
-description: cd-sebento-htmlcss-2 description
+description: Take your website design skills further!
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2 # possible values: 1, 2 or 3
 version: 4
@@ -9,12 +9,20 @@ ingredient: false
 copyedit: false
 last_tested: "2018-04-06"
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "music, literature, cybersecurity-and-cryptography, humour, weather, photography, games, animals, big-project, space, art, robotics, wearable-technology"
+interests: "music, literature, cybersecurity-and-cryptography, weather, photography, games, animals, big-project, space, art"
 technologies: "electronic-components, sonic-pi, sense-hat, scratch, html-css-javascript, python, raspberry-pi, pi-camera, blender, microbit"
-hardware: "electronic-components, sense-hat, raspberry-pi, pi-camera, microbit"
-software: "sonic-pi, scratch, html-css-javascript, python, blender"
-site_areas:
+hardware: ""
+software: "html-css-javascript"
+site_areas: coderdojo
 steps:
-  - title: Introduction
-  - title: What you will need
-  - title: Step title
+- title: Introduction
+- title: What you will need
+- title: Getting set up
+- title: All the colours!
+- title: Organising your page
+- title: Design some themes
+- title: Individual style
+- title: See the code on other websites!
+- title: Automatically adjust the size
+- title: Animation
+- title: Teach Tito to roll over!
