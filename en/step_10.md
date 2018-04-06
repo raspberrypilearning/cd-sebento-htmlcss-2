@@ -97,6 +97,6 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
 
 Don't worry about understanding all of the code above... just sit back and enjoy!!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+To learn about more things you can do with animation, visit [this web page](http://dojo.soy/se-css-animation){:target="_blank"}. Have fun!
 
 On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!

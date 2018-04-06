@@ -52,7 +52,7 @@ You just used a **gradient**! That's the name given to the effect where one colo
 
 If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/se-html2-gradients){:target="_blank"}.
 
 
 --- challenge ---
