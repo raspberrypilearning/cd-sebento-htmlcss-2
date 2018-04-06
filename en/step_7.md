@@ -91,7 +91,7 @@ Note: the name you type in front of the CSS rules should **exactly** match the n
 
 --- /hints ---
 
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
+![A round picture of Tito with a white border](images/pictureIdStyle.png)
 
 --- /challenge ---
 
