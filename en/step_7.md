@@ -6,7 +6,7 @@
 
 ```html
     <p id="myCoolText">
-        My website is about Ireland.
+        This website is about bird conservation.
     </p> 
 ```
 
@@ -68,7 +68,7 @@ You can make lots of different effects with gradients. If you want to learn more
 You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
 
 ```html
-  <img src="tito.png" id="titoPicture" alt="Tito the dog" />  		
+  <img src="barn-owl.jpg" id="owly" alt="A barn owl" />  		
 ```
 
 Choose any `id` name you like.
@@ -80,7 +80,7 @@ Choose any `id` name you like.
 To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
 
 ```css
-  #titoPicture {
+  #owly {
     border-radius: 100%;
   }
 ```

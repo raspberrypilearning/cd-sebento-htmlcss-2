@@ -11,7 +11,7 @@ title: What is content?
 
 --- /collapse ---
 
-+ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
++ Go to the `birds.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
 
 ```html
   <main>
@@ -32,16 +32,23 @@ Your `main` element should look something like this now (you might have differen
 ```html
   <main>
     <article>
-      <h1>My favourite places to see in Ireland</h1>
-        <h2>The Cliffs of Moher</h2>
-        <p>
-        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
-        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-        <h2>Achill Island</h2>
-        <p>This is a large island off the coast of County Mayo. It has a wild and
-        beautiful landscape of mountains, bogs and cliffs.
-        </p>
-        <img src="achill.JPG" width="200px" />
+      <h1>Birds of conservation concern in Ireland</h1>
+      <p>
+       There are a number of birds in Ireland whose numbers are in decline.
+       Some of those with a high priority for conservation are:
+      </p>  
+      
+      <h2>Barn Owl</h2>
+      <p>The barn owl is the most common owl and is found in most parts of the world. 
+      It has seen a huge decline in Ireland and Europe in recent years.</p>
+      <img src="barn-owl-landing.jpg" alt="Barn owl landing on a branch" height="200px" />
+      <h2>Curlew</h2>
+      <p>The curlew is recognisable by its long curved bill.
+      </p>
+      <img src="curlew.jpg" width="200px" />
+      <p>Curlews use their long bills to search for worms in mud or very soft ground.
+      </p>
+      <img src="curlew2.jpg" width="200px" />
     </article>
   </main>
 ```
@@ -52,17 +59,19 @@ Your `main` element should look something like this now (you might have differen
   <article>
     <h1>My favourite places to see in Ireland</h1>
     <section>
-      <h2>The Cliffs of Moher</h2>
-      <p>
-      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
-      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+      <h2>Barn Owl</h2>
+      <p>The barn owl is the most common owl and is found in most parts of the world. 
+      It has seen a huge decline in Ireland and Europe in recent years.</p>
+      <img src="barn-owl-landing.jpg" alt="Barn owl landing on a branch" height="200px" />
     </section>
     <section>
-      <h2>Achill Island</h2>
-      <p>This is a large island off the coast of County Mayo. It has a wild and
-      beautiful landscape of mountains, bogs and cliffs.
+      <h2>Curlew</h2>
+      <p>The curlew is recognisable by its long curved bill.
       </p>
-      <img src="achill.JPG" width="200px" />
+      <img src="curlew.jpg" width="200px" />
+      <p>Curlews use their long bills to search for worms in mud or very soft ground.
+      </p>
+      <img src="curlew2.jpg" width="200px" />
     </section>
   </article>
 ```
@@ -104,63 +113,52 @@ Your web page might not look different yet, but once the content has been organi
 
 --- hint ---
 
-Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+Look at the Conservation page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `conservation.html`:
 
 ```html
   <main>
-    <article>
-      <h1>Food in Ireland</h1>
-      <p>
-        These are some of my favourite Irish foods!
-      </p>  
-      <section>
-        <h2>Traditional Irish Breakfast</h2>
+	    <article>
+	    
+  	    <h1>Conservation efforts</h1>
         <p>
-          A "Full Irish" breakfast consists of sausages, rashers (bacon),
-          eggs, black pudding, white pudding and toast.
-        </p>
-        <p>
-          Often there will be a grilled tomato as well as mushrooms,
-          and baked beans.
-        </p>
-        <p>
-          And of course, no breakfast is complete without a lovely pot 
-          of tea!
-        </p>
-      </section>
+         Various kinds of work are carried out in Ireland in order to protect bird species.
+        </p>  
         
-      <section>
-        <h2>Bangers and Mash</h2>
-        <p>
-          This classic of sausages, mashed potato and gravy is not
-          unique to Ireland, but what makes it special is the Irish
-          sausages. Most countries have their own way of making sausages,
-          and they are one thing I miss from home if I'm away travelling!
-        </p>
-      </section>
+        <section>
+          <h2>Research and monitoring</h2>
+          <p>
+            An essential part of bird conservation is monitoring and recording 
+            information about the species such as their numbers, breeding habits, etc. 
         
-      <section>
-        <h2>Bacon and Cabbage</h2>
-        <p>
-          I couldn't possibly make a list of Irish food without including
-          this very traditional dish!
-        </p>
-        <p>
-          It might not sound very interesting, but this hearty meal of
-          boiled ham, potatoes and green cabbage is tasty and filling.
-          I love to smother the potatoes in butter, and I also like a
-          little mustard with the bacon.
-        </p>
-        <p>
-          My mum always made it extra special by cooking the cabbage in
-          the water that the ham was boiled in.
-        </p>
-        <p>
-          If there are any leftovers you can make another one of my
-          favourites: <strong>fried cabbage</strong>!
-        </p>
-      </section>
-    </article>     
+          </p>
+          <p>
+            Scientific research may be carried out to determine whether a species is 
+            in decline and how to address the problem.
+          </p>
+        </section>
+        
+        <section>
+          <h2>Habitat protection</h2>
+          <p>
+            The destruction of habitat is a serious threat to many birds and 
+            therefore protecting habitats is crucial to protecting the species.
+          </p>
+          
+          <p>One example of this is the preservation of wetlands in Ireland.</p>
+        </section>
+        
+        <section>
+          <h2>Control invasive plants and animals</h2>
+          <p>
+            Mink and rats are a predator that threaten many bird species, 
+            for example by eating their eggs.
+          </p>
+          <p>
+            Rhododendron is an example of an invasive plant which can very quickly
+            take over large areas of countryside, disrupting the biodiversity.
+          </p>
+        </section>
+	    </article>   
   </main>
 ```
 

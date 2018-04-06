@@ -2,10 +2,10 @@
 
 Did you know you can use CSS to make things move around? You'll learn how on this card!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of the barn owl from before, and my CSS block looks like this:
 
 ```css
-    #titoPicture {
+    #owly {
         border-radius: 100%;
         width: 100px;
     }
