@@ -96,7 +96,7 @@ So CSS classes let you **choose** which elements to style, and they let you **re
     <main class="stylishBox">	
 ```
 
-Here's what my home page looks like with the CSS class. I've also added the `topDivider` and `someSpacing` classses to the `img` tag with the picture of the barn owl.
+Here's what my home page looks like with the CSS class. I've also added the `topDivider` and `someSpacing` classes to the `img` tag with the picture of the barn owl.
 
 ![CSS classes being used on the home page](images/homePageWithClasses.png)
 
