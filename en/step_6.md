@@ -13,7 +13,7 @@ Writing CSS rules for elements such as `section` and `p` is great, but what if y
   }
 ```
 
-+ Now go to `birds.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
++ Now go to `attractions.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
 
 ```html
   <section class="topDivider">
@@ -63,7 +63,7 @@ To choose which elements the style rules apply to, you add the `class` **attribu
   }
 ```
 
-+ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Conservation page of my website, like this: `<section class="stylishBox">`.
++ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
 
 It looks great, but now my sections are all squashed together.
 
@@ -96,7 +96,7 @@ So CSS classes let you **choose** which elements to style, and they let you **re
     <main class="stylishBox">	
 ```
 
-Here's what my home page looks like with the CSS class. I've also added the `topDivider` and `someSpacing` classses to the `img` tag with the picture of the barn owl.
+Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
 
 ![CSS classes being used on the home page](images/homePageWithClasses.png)
 
@@ -125,13 +125,13 @@ You can make a CSS class that defines just the width of an element like this:
 Here's an `img` tag with a `width` attribute:
 
 ```html
-  <img src="barn-owl.jpg" alt="A barn owl" width="100px" />  		
+  <img src="tito.png" alt="Tito the dog" width="100px" />  		
 ```
 
 When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
 
 ```html
-  <img src="barn-owl.jpg" class="smallPictures" alt="A barn owl" />  		
+  <img src="tito.png" class="smallPictures" alt="Tito the dog" />  		
 ```
 
 By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!

@@ -6,7 +6,7 @@
 
 ```html
     <p id="myCoolText">
-        This website is about bird conservation.
+        My website is about Ireland.
     </p> 
 ```
 
@@ -52,7 +52,7 @@ You just used a **gradient**! That's the name given to the effect where one colo
 
 If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/se-html2-gradients){:target="_blank"}.
+You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
 
 
 --- challenge ---
@@ -68,7 +68,7 @@ You can make lots of different effects with gradients. If you want to learn more
 You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
 
 ```html
-  <img src="barn-owl.jpg" id="owly" alt="A barn owl" />  		
+  <img src="tito.png" id="titoPicture" alt="Tito the dog" />  		
 ```
 
 Choose any `id` name you like.
@@ -80,7 +80,7 @@ Choose any `id` name you like.
 To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
 
 ```css
-  #owly {
+  #titoPicture {
     border-radius: 100%;
   }
 ```
@@ -91,7 +91,7 @@ Note: the name you type in front of the CSS rules should **exactly** match the n
 
 --- /hints ---
 
-![A round picture of Tito with a white border](images/pictureIdStyle.png)
+![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
 
 --- /challenge ---
 

@@ -1,6 +1,6 @@
 ## Getting set up
 
-+ Go to the starter trinket project at [dojo.soy/se-html2-starter](http://dojo.soy/se-html2-starter){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project. 
++ Go to the starter trinket project at [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project. 
 
 + If you prefer, you can work with a website that you already made.
 

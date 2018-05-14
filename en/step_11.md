@@ -1,4 +1,4 @@
-## Add hover effects
+## Teach Tito to roll over!
 
 You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor! 
 
@@ -32,8 +32,7 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
 
 ```html
     <p>
-      <a class="niceLinks" href="https://en.wikipedia.org/wiki/Bird_conservation">Click here</a> 
-        to read about bird conservation on Wikipedia.
+      Visit the <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia page</a> to learn even more about Ireland!
     </p>
 ```
 
@@ -53,14 +52,14 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
 
 You can combine all of these tricks with animations too! 
 
-+ Find the CSS block for the picture of the barn owl again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
++ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
 
 ```css
-  #owly {
+  #titoPicture {
     border-radius: 100%;
     width: 100px;
   }
-  #owly:hover {
+  #titoPicture:hover {
     animation-name: rollOver;
     animation-duration: 1s;
     animation-iteration-count: 1;
@@ -77,7 +76,7 @@ You can combine all of these tricks with animations too!
 
 + Can you guess what will happen?
 
-+ Move the cursor over the picture to find out!
++ Now shout "Roll over!" as you move the cursor over the picture!
 
 --- challenge ---
 
@@ -148,3 +147,4 @@ Or, if you want to make other links on your website flash rainbow colours too, y
 
 --- /challenge ---
 
+![](images/badge-footer-image-html-intermed.png)

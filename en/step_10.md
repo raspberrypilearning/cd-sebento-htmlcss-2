@@ -2,10 +2,10 @@
 
 Did you know you can use CSS to make things move around? You'll learn how on this card!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of the barn owl from before, and my CSS block looks like this:
++ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
 
 ```css
-    #owly {
+    #titoPicture {
         border-radius: 100%;
         width: 100px;
     }
@@ -97,6 +97,6 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
 
 Don't worry about understanding all of the code above... just sit back and enjoy!!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/se-css-animation){:target="_blank"}. Have fun!
+To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
 
 On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
