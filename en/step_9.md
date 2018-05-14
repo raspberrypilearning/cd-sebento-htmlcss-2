@@ -2,18 +2,18 @@
 
 Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ Go to `index.html` and find the `img` element with the picture of the barn owk, or find another `img` tag on your website.
 
 + Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
 
 ```html
-  <img src="tito.png" id="titoPicture" alt="Tito the dog" />
+  <img src="barn-owl.jpg" id="owly" alt="A barn owl" />
 ``` 
 
 + In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
 
 ```css
-  #titoPicture {
+  #owly {
     width: 50%;
     border-radius: 100%;
   }

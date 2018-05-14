@@ -1,20 +1,20 @@
-title: Intermediate HTML/CSS Sushi Cards
+title: cd-sebento-htmlcss-2
 hero_image: images/banner.png
 description: Take your website design skills further!
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 2
+duration: 2 # possible values: 1, 2 or 3
+version: 4
 listed: false
 ingredient: false
-copyedit: true
-curriculum: 0, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: animals, art, humour, space, photography, outdoors, music, games
-technologies: html-css-javascript
+copyedit: false
+last_tested: "2018-04-06"
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: "music, literature, cybersecurity-and-cryptography, weather, photography, games, animals, big-project, space, art"
+technologies: "electronic-components, sonic-pi, sense-hat, scratch, html-css-javascript, python, raspberry-pi, pi-camera, blender, microbit"
+hardware: ""
+software: "html-css-javascript"
 site_areas: coderdojo
-hardware: 
-software: html-css-javascript
-version: 1
-last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
 - title: Getting set up
@@ -25,4 +25,4 @@ steps:
 - title: See the code on other websites!
 - title: Automatically adjust the size
 - title: Animation
-- title: Teach Tito to roll over!
+- title: Add hover effects
