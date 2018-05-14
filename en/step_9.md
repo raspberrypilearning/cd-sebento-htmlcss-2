@@ -2,7 +2,7 @@
 
 Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
 
-+ Go to `index.html` and find the `img` element with the picture of the barn owk, or find another `img` tag on your website.
++ Go to `index.html` and find the `img` element with the picture of the barn owl, or find another `img` tag on your website.
 
 + Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
 
