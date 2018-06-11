@@ -3,15 +3,17 @@ hero_image: images/banner.png
 description: Take your website design skills further!
 theme: navy # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2 # possible values: 1, 2 or 3
-version: 1
 listed: true
 ingredient: false
 copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projects
+hardware: ''
+software: html-css-javascript
+version: 3.0.0
 last_tested: "2018-04-06"
-interests: "music, literature, cybersecurity-and-cryptography, weather, photography, games, animals, big-project, space, art"
-technologies: "html-css-javascript"
-software: "html-css-javascript"
-site_areas: coderdojo
 steps:
 - title: Introduction
 - title: What you will need
