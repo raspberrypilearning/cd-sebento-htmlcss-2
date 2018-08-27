@@ -11,7 +11,10 @@ Here is an example of how your website might look after completing these Sushi C
   </iframe>
 </div>
 
-### What you will learn
+--- collapse ---
+---
+title: What you will learn
+---
 
 - How to create your own colours using code
 - Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
@@ -20,3 +23,20 @@ Here is an example of how your website might look after completing these Sushi C
 - Making things happen when you hover over elements on your page
 - Animating elements of your website with CSS
 - How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: What you will need
+---
+
+### Hardware
+
++ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
+
+### Software
+
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+
+--- /collapse ---
