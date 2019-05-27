@@ -1,43 +1,102 @@
-## Automatically adjust the size
+## Animation
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+Did you know you can use CSS to make things move around? You'll learn how on this card!
 
-+ Go to `index.html` and find the `img` element with the picture of the barn owl, or find another `img` tag on your website.
-
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
-
-```html
-  <img src="barn-owl.jpg" id="owly" alt="A barn owl" />
-``` 
-
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of the barn owl from before, and my CSS block looks like this:
 
 ```css
-  #owly {
-    width: 50%;
-    border-radius: 100%;
-  }
+    #owly {
+        border-radius: 100%;
+        width: 100px;
+    }
 ```
 
-Note: 50% (50 percent) is **half**. 
++ Go to the bottom of your CSS file and add the following code:
 
-+ Try resizing your browser window and watch what happens to the picture.
+```css
+    @keyframes myFirstAnimation {
+        from {
+            width: 100px;
+        }
+        to {
+            width: 300px;
+        }
+    }
+```
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
 
---- collapse ---
----
-title: How does it work?
----
++ Find your CSS rules for the picture and add the following three properties:
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement. 
+```css
+    animation-name: myFirstAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+```
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**. 
++ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
++ Let's try another animation! Add the following code to the end of your CSS file:
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+```css
+    @keyframes rainbowGlow {
+        0% {
+            color: #FFD700;
+        }
+        50% {
+            color: #663399;
+        }
+        100% {
+            color: #FFD700;
+        }
+    }
+```
+   
++ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
 
---- /collapse ---
+```css
+    #myCoolText {        
+        color: #003366;
+        border: 2px ridge #ccffff;
+        padding: 15px;
+        text-align: center;
+        animation-name: rainbowGlow;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+    }
+```
 
-+ Experiment with different numbers in front of the `%`.
+When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`. 
+
++ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
+
++ Try out different values for `animation-duration` to speed up or slow down your animation.
+
++ One final trick! Add this animation code:
+
+```css
+    @keyframes slide {
+        0% {
+            background-position-x: 0;
+        }
+        100% {
+            background-position-x: 600vw;
+        }
+    }
+```
+
++ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
+
+```css
+    #frontPage {
+        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+        background-size: 600vw 600vw;
+        animation: slide 10s infinite linear forwards;
+    }
+```
+
+Don't worry about understanding all of the code above... just sit back and enjoy!!
+
+To learn about more things you can do with animation, visit [this web page](http://dojo.soy/se-css-animation){:target="_blank"}. Have fun!
+
+On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!

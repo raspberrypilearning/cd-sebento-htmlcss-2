@@ -1,43 +1,56 @@
-## Getting set up
+## All the colours!
 
-+ Go to the starter trinket project at [dojo.soy/se-html2-starter](http://dojo.soy/se-html2-starter){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project. 
+As you have seen before, you can type in many different colour names as words, and the browser will recognise them. But a more common way to set colours is to use something called **hex codes** ('hex' is short for **hexadecimal**, a special way of counting).
 
-+ If you prefer, you can work with a website that you already made.
++ Take a look at your **style sheet**. That's the file that has `.css` in the name.
+
++ Inside the CSS rules for `body`, set the background colour to the hex code `#7B68EE`:
+
+```html
+  background-color: #7B68EE;
+```
+
+Note: If you are using a Mac, you can type `#` by press the <kbd>alt</kbd> and the <kbd>3</kbd> keys at the same time.
+
+Your website should now have a purple background. 
+
+![](images/HexColourFirst.png) 
+![](images/HexColourFirstResult.png)
+
+
++ Not a fan of purple? Go to [this web page](http://dojo.soy/se-html2-colours){:target="_blank"} and choose another colour for your style sheet — instead of typing the name of the colour, type in the hex code. 
+
+![](images/ColorNamesHex.png)
+
+Colour codes allow you to create any colour, even if it's not on any list of colour names. 
+
++ Try making up your own colour code. It must start with a `#`. This tells the browser that it is a hex code instead of a colour name. The rest of the code is made up of six characters. They can be  any number from **0 to 9** and any letter from **A to F**.
 
 --- collapse ---
 ---
-title: I have an account on Trinket
+title: How does it work? 
 ---
 
-- Click the **Remix** button in the top right-hand corner of the project (if you are not signed in, you will be prompted to do so. Once you've signed in, you will then need to click the **Remix** button again). This creates a copy of the project for you to work with. 
+Every colour is made by mixing different amounts of **red**, **green**, and **blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is the minimum, and `FF` is the maximum.
 
-![Remix button](images/tktRemixButtonArrow.png)
+**Hexadecimal** is a way of counting that makes numbers shorter to write by using the letters A-F as extra digits. The number `255` is written as `FF` in hexadecimal. You don't need to worry about learning to count with hexadecimal numbers. Instead, experiment with different hex codes to get used to using them.
 
-It should say **remixed** after you click it:
+* Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+|   |R |G |B  | Result     |
+|---|--|--|---|:----------:|
+| \#|FF|00|00 | Red        |
+| \#|00|FF|00 | Green      |
+| \#|00|00|FF | Blue       |
+| \#|FF|FF|00 | Yellow     |
+| \#|FF|00|FF | Magenta    |
+| \#|00|FF|FF | Cyan       |
+| \#|FF|8c|00 | Dark orange |
 
 --- /collapse ---
 
---- collapse ---
----
-title: I don't have an account on Trinket
----
+Mixing the perfect colour can take a lot of experimenting. Luckily, there are plenty of online colour picking tools that help you get the hex code for any colour you want. 
 
-Even if you don't have an account, you can still work with Trinket.
+![](images/W3ColorPicker.png)
 
-### Saving your work
-You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can save, for example in a document, or send via email.
-**Note**: each time you make a change to the project, you will get a new link.
-
-### How to sign up for an account
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you (meaning save a copy to which you can make changes).
-
-- In browser tab with the starter trinket project, click **Sign Up For Your Free Account**. You will need an email address to sign up. 
-
-- Enter your email address and choose a password, or ask somebody to do this for you.
-
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**.
-!["My Trinkets" menu item](images/myTrinketsMenu.png)
-
---- /collapse ---
++ Try out [this colour picker](http://dojo.soy/se-html2-picker){:target="_blank"} to choose some hex colour codes to use for the rest of the styles on your website.
