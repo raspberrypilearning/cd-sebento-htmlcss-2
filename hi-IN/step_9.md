@@ -1,8 +1,8 @@
-## Animation
+## एनीमेशन
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+क्या आप जानते हैं कि आप चीजों को चारों ओर घूमाने के लिए CSS का उपयोग कर सकते हैं? आप इस कार्ड से यही सीखेंगे!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of the barn owl from before, and my CSS block looks like this:
++ आरंभ करने से पहले, सुनिश्चित करें कि आपके पास `id` के साथ आपकी वेबसाइट पर एक तस्वीर है और उसके लिए एक CSS खंड जो की `width` को `100px` निर्धारित करता है। मैं पहले वाली खलिहान के उल्लू की तस्वीर का इस्तेमाल करने जा रहा हूं, और मेरा CSS खंड इस तरह दिखता है:
 
 ```css
     #owly {
@@ -11,7 +11,7 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ अपनी CSS फाइल के नीचे जाएँ और निम्न कोड जोड़ें:
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,9 +24,9 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+यह कोड `myFirstAnimation` नामक एक एनीमेशन बनाता है जिसको आप अपनी वेबसाइट पर किसी भी एलीमेंट से जोड़ सकते हैं। आपको क्या लगता है यह क्या करेगा?
 
-+ Find your CSS rules for the picture and add the following three properties:
++ चित्र के लिए अपने CSS नियम खोजें और निम्नलिखित तीन प्रॉपर्टीज जोड़ें:
 
 ```css
     animation-name: myFirstAnimation;
@@ -34,9 +34,9 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ अब देखें कि आपके वेब पृष्ठ पर क्या होता है! `animation-iteration-count` के लिए अलग-अलग मान आज़माएं और देखें की यह क्या करता है।
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ चलिये एक और एनीमेशन का इस्तेमाल करते हैं! निम्नलिखित कोड को अपनी CSS फाइल के आखिर में जोड़ें:
 
 ```css
     @keyframes rainbowGlow {
@@ -52,7 +52,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ अब पहले से लिखे ` #myCoolText ` के CSS नियमों को ढूँढें और एनीमेशन कोड जोड़ें:
 
 ```css
     #myCoolText {        
@@ -66,13 +66,13 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+जब आप `से` और `तक` के बजाय **प्रतिशत मान** का उपयोग करते हैं, तो आप दो मानों के बीच में और साथ ही शुरू और अंत वाले मान सेट करने में सक्षम होते हैं। आप ` 0 ` से अलग-अलग प्रतिशत मानों का उपयोग करते हुए ` 100 ` तक जितना चाहें उतना मूल्य सेट कर सकते हैं।
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ `animation-iteration-count` के मान को बदलकर `infinite` करें। देखें कि आपके परीक्षण करने से पहले क्या आप अनुमान लगा सकते हैं कि क्या होगा!
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ अपने एनीमेशन को गति देने या धीमा करने के लिए `animation-duration` के लिए अलग-अलग मान आज़माएं।
 
-+ One final trick! Add this animation code:
++ एक अंतिम चाल! इस एनीमेशन कोड को जोड़ें:
 
 ```css
     @keyframes slide {
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ अब ` #frontPage ` के CSS नियम जो आपने पहले लिखे थे ढूंढें और उन्हें इसमें बदलें:
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+ऊपर के पूर्ण कोड को समझने की चिंता न करें... बस आराम से बैठें और आनंद लें!!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/se-css-animation){:target="_blank"}. Have fun!
+एनीमेशन के साथ आप और अधिक चीज़ें कर सकते हैं, उनके बारे में जानने के लिए, [इस वेब पृष्ठ](http://dojo.soy/se-css-animation){:target="_blank"} पर जाएं। मजे करें!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+अगले कार्ड पर आप सीखेंगे कि जब आप चीजों पर माउस कर्सर घुमाते हैं तो रोचक चीजें कैसे होती हैं!
