@@ -1,8 +1,8 @@
-## Individual style
+## व्यक्तिगत स्टाइल
 
- Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+ चलो मुख पृष्ठ को थोड़ा सजाएं! दूसरे प्रकार के CSS selector के साथ, आप CSS नियमों का एक अनूठा सेट लागू कर सकते हैं बस **एक विशिष्ट एलीमेंट ** के लिए ।
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ `index.html` पर जाएँ और एक पैराग्राफ तत्व ढूंढें(`p`), या यदि आपके पास कोई नहीं है तो एक जोड़ें। टैग के लिए निम्नलिखित **attribute** जोड़ें:
 
 ```html
     <p id="myCoolText">
@@ -10,9 +10,9 @@
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+`id` यह एक ऐसा नाम है जिसे आप **पहचान** के लिए एक विशेष तत्व को देते हैं। एक पृष्ठ पर कोई दो एलीमेंट्स की कभी भी समान `id` नहीं होनी चाहिए!
 
-+ Now go to your style sheet and add the following code:
++ अब अपनी स्टाइल शीट(style sheet) पर जाएं और निम्न कोड जोड़ें:
 
 ```css
     #myCoolText {
@@ -23,19 +23,19 @@ The `id` is a name you give a particular element to **identify** it. No two elem
     }
 ```
 
-Your text should look like this now:
+आपका कोड अब कुछ इस प्रकार का दिखना चाहिए:
 
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+![एक अलग रंग और उसके चारों ओर एक सीमा के साथ पाठ](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+एक selector के सामने `#` लगा कर आप आपकी वेबसाइट पर एक विशिष्ट एलीमेंट के लिए CSS नियम लागू कर सकते हैं। आप एलीमेंट को उस नाम की मदद से चुनेंगे जिसे आपने एलीमेंट के `id` एट्रिब्यूट को दिया था।
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ चलो मुख पृष्ठ की `body` के लिए एक बनाएं। `index.html` पर जाएँ और `body ` टैग में एक `id` जोड़ें।
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ स्टाइल शीट(style sheet) में, निम्नलिखित CSS नियम जोड़ें:
 
 ```css
     #frontPage {
@@ -44,40 +44,40 @@ A selector with a `#` in front of it is used to apply CSS rules to one specific 
     }
 ```
 
-You should get something that looks like this:
+आपको कुछ ऐसा मिलना चाहिए जो इस तरह दिखता है:
 
-![Rainbow gradient background](images/frontPageIdStyles.png)
+![इंद्रधनुष ग्रैडिएंट पृष्ठभूमि](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+आपने अभी **ग्रेडिएंट** का उपयोग किया है! यह नाम उस प्रभाव को दिया गया है जहां एक रंग दूसरे में रंग जाता है। नोट: ग्रेडिएंट से ऊपर की पहली `background` प्रॉपर्टी उन ब्राउज़रों के लिए एक डिफ़ॉल्ट रंग निर्धारित करती है जो ग्रेडिएंट का समर्थन नहीं करते हैं।
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+यदि आपने कोड पूरी तरह से सही टाइप किया है और आपको ऊपर दिख रहा प्यारा इंद्रधनुष प्रभाव नहीं मिला है, तो हो सकता है कि आपका ब्राउज़र ग्रेडिएंट का समर्थन न करता हो।
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/se-html2-gradients){:target="_blank"}.
+आप ग्रेडिएंट के साथ बहुत सारे अलग-अलग प्रभाव बना सकते हैं। यदि आप और अधिक सीखना चाहते हैं, तो [ यहाँ ](http://dojo.soy/se-html2-gradients){:target="_blank"} पर जाएं।
 
 
 --- challenge ---
 
-## Challenge: style some more elements
+## चुनौती: कुछ और एलीमेंट्स को स्टाइल करें
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are.
++ एक और एलीमेंट को` id `देने की कोशिश करें और ऊपरोक्त के अनुसार उस एलीमेंट को ` # ` के साथ ID selector का उपयोग करके स्टाइल करें। क्या ख्याल है एक तस्वीर बनाने के बारे में जिसमें ` border-radius ` ` 100% ` है ताकि यह पूरी तरह से गोल हो? वेबसाइट पर कोई भी अन्य चित्र वैसा ही रहेगा जैसा वो है।
 
 --- hints ---
 
 --- hint ---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+आप HTML टैग से` id` जोड़कर एक एलीमेंट को ` id `एट्रिब्यूट देते हैं, इस प्रकार:
 
 ```html
   <img src="barn-owl.jpg" id="owly" alt="A barn owl" />         
 ```
 
-Choose any `id` name you like.
+अपनी पसंद का कोई ` id ` नाम चुनें।
 
 --- /hint ---
 
 --- hint ---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+किसी विशिष्ट एलीमेंट के लिए स्टाइल नियमों को परिभाषित करने के लिए, आप `#` प्रतीक का उपयोग करते हैं, और वह नाम जिसे आपने एलीमेंट को इसके `id` के रूप में दिया था।
 
 ```css
   #owly {
@@ -85,13 +85,13 @@ To define style rules for a specific element, you use the `#` symbol, and the na
   }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+नोट: CSS नियमों के सामने आप जो नाम लिखते हैं, वह **ठीक वही** होना चाहिए जो आपने एलीमेंट के `id` एट्रिब्यूट को दिया था ।
 
 --- /hint ---
 
 --- /hints ---
 
-![A round picture of Tito with a white border](images/pictureIdStyle.png)
+![सफेद सीमा के साथ टीटो की एक गोल तस्वीर](images/pictureIdStyle.png)
 
 --- /challenge ---
 
