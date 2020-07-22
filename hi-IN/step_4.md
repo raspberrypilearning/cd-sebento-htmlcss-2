@@ -1,33 +1,33 @@
-## Organising your page
+## अपने पृष्ठ का आयोजन
 
-So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+अब तक आपने **कन्टेन्ट** देखने और पढ़ने में आसान बनाने के लिए **शीर्षकों**और **पैराग्राफ** का उपयोग किया है। आइए एक साथ चीजों को समूहीकृत करके इसे और भी व्यवस्थित करें।
 
 --- collapse ---
 ---
-title: What is content?
+title: कन्टेन्ट क्या है?
 ---
 
-**Content** is all the stuff on your web page, such astext and pictures.
+**कन्टेन्ट** आपके वेब पृष्ठ पर सब कुछ है, जैसे की टेक्स्ट और चित्र।
 
 --- /collapse ---
 
-+ Go to the `birds.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line:
++ `birds.html` फ़ाइल में जाएं (या यदि आप उदाहरण प्रोजेक्ट का उपयोग नहीं कर रहे हैं तो अपने स्वयं के पृष्ठों में से एकमें जाएं) और, शीर्ष के पास, उदघाटन टैग `<main>` के **नीचे**, नई लाइन पर निम्नलिखित टाइप करें:
 
 ```html
   <main>
     <article>
 ```
 
-+ If your editor automatically added in a closing `</article>` tag for you, delete it.
++ यदि आपका एडिटर अपने आप, आपके लिए एक समापन `</article>` टैग जोड़ता है तो, उसे मिटाएं।
 
-+ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ फ़ाइल के निचले भाग में, समापन `</main>` टैग के ** ऊपर **, एक नई पंक्ति जोड़ें और ` article ` एलीमेंट बंद करें:
 
 ```html
     </article>
   </main>
 ```
 
-Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+आपका `main` एलीमेंट अब कुछ ऐसा दिखना चाहिए (आपके `article` टैग के बीच भिन्न सामग्री हो सकती है):
 
 ```html
   <main>
@@ -53,7 +53,7 @@ Your `main` element should look something like this now (you might have differen
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ अब अपने `article` में कन्टेन्ट को देखें और इसे खंडों में तोड़ने का प्रयास करें। टैग की इस नई जोड़ी को प्रत्येक बिट के आसपास रखें: `<section> </section>` यहाँ एक उदाहरण है कि यह कैसा दिख सकता है:
 
 ```html
   <article>
@@ -78,42 +78,42 @@ Your `main` element should look something like this now (you might have differen
 
 --- collapse ---
 ---
-title: What are the new tags all about?
+title: नए टैग क्या हैं?
 ---
 
-Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+इन नए एलीमेंट्स को ** कंटेनरों** के रूप में सोचें। उनका उपयोग चीजों को एक साथ समूहित करने के लिए किया जाता है। यह आपके घर में बक्से और अलमारियों में चीजों को व्यवस्थित करने जैसा है!
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+यह आपकी वेबसाइट को स्क्रीन रीडर्स के लिए अनुकूल बनाता है, आपको वेबसाइट के लेआउट पर अधिक नियंत्रण देता है, और, जैसा कि आप देखेंगे, यह आपको स्टाइल के साथ वास्तव में रचनात्मक बनने की अनुमति देता है।
 
-Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+टैग के बीच में कुछ भी लिखा जा सकता है। आमतौर पर यह एक से अधिक एलीमेंट होगा, लेकिन यह होना जरूरी नहीं है। यह किसी भी तरह का HTML एलीमेंट हो सकता है। आप जो कर रहे हैं वह ब्राउज़र को बता रहा है कि इन टैगों के बीच सब कुछ एक साथ है।
 
 ### Article
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+` article ` एलीमेंट सामग्री के एक पूरे टुकड़े के लिए एक कंटेनर है, इस मामले में आयरलैंड में आकर्षण के बारे में जानकारी का एक सेट है। यदि आपके पास अलग-अलग कन्टेन्ट है जो संबंधित नहीं हैं, तो पूरे कन्टेन्ट के चारों ओर टैग का एक सेट लगाने के बजाय, आपको प्रत्येक को अपने ` article ` एलीमेंट में डालना चाहिए ।
 
 ### Section
 
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+`section` एलीमेंट आपको संबंधित कन्टेन्ट को छोटे टुकड़ों में विभाजित करने और प्रत्येक टुकड़े को अपने कंटेनर में रखने की सुविधा देता है।
 
-### Others exist too!
+### अन्य भी मौजूद हैं!
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+HTML में केवल ये कंटेनर एलीमेंट नहीं हैं। यदि आपने कभी मेन्यू बनाया है और फिर उसे `<nav> </nav>` टैग के बीच में रखा है, यह एक और प्रकार का कंटेनर है। वैसे ही `<main> </main>` और `<header> </header>` हैं- क्या आप किसी और के बारे में सोच सकते हैं?
 
 --- /collapse ---
 
 --- challenge ---
 
-Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+हो सकता है कि आपका वेब पृष्ठ अभी अलग न दिखे, लेकिन एक बार कंटेंट कंटेनर टैग में व्यवस्थित हो जाने के बाद, आप इसमें CSS के साथ कुछ अच्छी चीजें करने में सक्षम होंगे। याद रखें, HTML नियंत्रित करता है कि आपकी वेबसाइट कैसे व्यवस्थित है, और CSS यह कैसी दिखती है।
 
-## Challenge: organise your website
+## चुनौती: अपनी वेबसाइट व्यवस्थित करें
 
-+ Have a go at organising all of the content on your website using the `article` and `section` containers in this way.
++ इस तरह से `article` और `section` कंटेनर का उपयोग करके अपनी वेबसाइट के सभी कन्टेन्ट को व्यवस्थित करने पर ध्यान दें।
 
 --- hints ---
 
 --- hint ---
 
-Look at the Conservation page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `conservation.html`:
+उदाहरण प्रोजैक्ट के संरक्षण पृष्ठ को देखें। आप देखेंगे कि हमने `conservation.html` फ़ाइल में एक `article ` के साथ और कई`section` टैग जोड़े हैं:
 
 ```html
   <main>
@@ -166,6 +166,6 @@ Look at the Conservation page of the example project. You'll see that I've added
 
 --- /hints ---
 
-On the next card, you'll design a different theme for each page that's organised into articles and sections!
+अगले कार्ड पर, आप प्रत्येक पृष्ठ के लिए एक अलग थीम डिज़ाइन करेंगे जो लेखों और अनुभागों में व्यवस्थित होगी!
 
 --- /challenge ---
