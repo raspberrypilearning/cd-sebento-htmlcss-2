@@ -1,10 +1,10 @@
-## Introduction
+## भूमिका
 
-Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
+वेबसाइट बनाने के लिए अपने मौजूदा HTML / CSS कौशल का विकास करें और वेबसाइट कैसी दिखती है पर अधिक नियंत्रण प्राप्त करें।
 
-### What you will make
+### आप क्या बनाएँगे
 
-Here is an example of how your website might look after completing these Sushi Cards:
+यहाँ एक उदाहरण है कि आपकी वेबसाइट इन सुशी कार्डों को पूरा करने के बाद कैसे दिख सकती है:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/38c2a2638d?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -13,30 +13,30 @@ Here is an example of how your website might look after completing these Sushi C
 
 --- collapse ---
 ---
-title: What you will learn
+title: आप क्या सीखेंगे
 ---
 
-- How to create your own colours using code
-- Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
-- How to use CSS styling to create themes as well as style individual elements
-- Controlling the size of elements with different kinds of measurements
-- Making things happen when you hover over elements on your page
-- Animating elements of your website with CSS
-- How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
+- कोड का उपयोग करके अपने खुद के रंग कैसे बनाएं
+- अपनी वेबसाइट पर सामग्री व्यवस्थित करने के तरीके ताकि आप स्टाइल्स को लागू कर सकें, और स्क्रीन रीडर्स के लिए इसे अनुकूल बना सकें
+- CSS स्टाइलिंग का उपयोग कैसे करें थीम बनाने के साथ-साथ प्रत्येक एलिमेंट को स्टाइल करने के लिए
+- विभिन्न प्रकार के माप के साथ एलिमेंट्स के आकार को नियंत्रित करना
+- जब आप अपने पेज पर एलिमेंट्स पर होवर करते हैं, तो चीजें होती हैं
+- CSS के साथ अपनी वेबसाइट के एलिमेंट्स को एनिमेट करना
+- किसी भी वेबसाइट के कोड पर एक झलक पाने के लिए, और आपकी वेबसाइट के कुछ हिस्सों की जाँच करने के लिए डेवलपर टूल्स (developer tools) का उपयोग कैसे करें
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will need
+title: आपको किन चीज़ों की आवश्यकता होगी
 ---
 
-### Hardware
+### हार्डवेयर
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ एक कंप्यूटर जो [trinket.io](https://trinket.io){:target="_blank"} वेबसाइट तक पहुँचने में सक्षम हो
 
-### Software
+### सॉफ्टवेयर
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+इस प्रोजेक्ट को [trinket.io](https://trinket.io){:target="_blank"} का उपयोग करके किसी वेब ब्राउज़र में पूरा किया जा सकता है।
 
 --- /collapse ---
