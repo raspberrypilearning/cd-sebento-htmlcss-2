@@ -1,8 +1,8 @@
-## Design some themes
+## कुछ थीम डिजाइन करें
 
-Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
+`section`और `p` जैसे एलीमेंट्स के लिए CSS नियम लिखना आसान है, लेकिन क्या होगा अगर आप उनमें से कुछ को दूसरों से अलग दिखना चाहते हैं? इस कार्ड पर आप सीखेंगे कि एक ही प्रकार के एलीमेंट्स के लिए स्टाइल नियमों के विभिन्न सेट कैसे लागू करें और अपनी वेबसाइट पर प्रत्येक पृष्ठ के लिए एक अलग थीम बनाएं!
 
-+ Go to your style sheet file and add the following — be sure to include the dot in front!
++ अपनी स्टाइल शीट(style sheet) फ़ाइल पर जाएं और निम्नलिखित जोड़ें - सामने डॉट को शामिल करना सुनिश्चित करें!
 
 ```css
   .topDivider {
@@ -13,28 +13,28 @@ Writing CSS rules for elements such as `section` and `p` is great, but what if y
   }
 ```
 
-+ Now go to `birds.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
++ अब `birds.html` पर जाएं (या यदि आप अपनी स्वयं की परियोजना का उपयोग कर रहे हैं तो उस HTML फ़ाइल पर जाएं जिस पर आप काम कर रहे हैं), और निम्नलिखित **attributes** प्रत्येक `section` टैग के लिए जोड़ें:
 
 ```html
   <section class="topDivider">
 ```
 
-You should see a line appear above each section on the page. Congratulations — you've just used your first **CSS class**!
+आपको पृष्ठ पर प्रत्येक अनुभाग के ऊपर एक पंक्ति दिखाई देनी चाहिए। बधाई - आपने अपनी पहली **CSS class** का उपयोग किया है!
 
-![Page with lines in between the sections](images/sectionsWithTopBorder.png)
+![अनुभागों के बीच में पंक्तियों वाला पृष्ठ](images/sectionsWithTopBorder.png)
 
-+ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
++ देखें कि आपका वेब पृष्ठ अब कैसा दिखता है और इसकी तुलना उन अन्य पृष्ठों से करें जिनके पास `section` एलीमेंट है। आप देखेंगे कि केवल वहीं शीर्ष पर लाइन होगी जहाँ आपने `class="topDivider"` एट्रिब्यूट जोड़ा था।
 
 --- collapse ---
 ---
-title: How does it work?
+title: यह कैसे काम करता है?
 ---
 
-Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
+याद रखें कि जब आप CSS **selector** का उपयोग करते हैं जैसे `section` या `p` या `nav ul`, आपकी वेबसाइट पर वो स्टाइल नियम उस प्रकार के**सभी** एलीमेंट पर लागू होते हैं।
 
-With CSS **classes**, you're able to change the style of just **some** of the elements.
+CSS **classes**के साथ, आप बस **कुछ** एलीमेंट्स के स्टाइल को बदलने में सक्षम हैं।
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+अपने selector के सामने बिंदी लगाने से यह **class selector** में बदल जाता है। एक class का कोई भी नाम हो सकता है, इसलिए उसे HTML एलीमेंट का नाम होना जरुरी नहीं है । उदाहरण के लिए:
 
 ```css
   .myAwesomeClass {
@@ -42,7 +42,7 @@ Putting a dot in front of your selector makes it into a **class selector**. A cl
   }
 ```
 
-To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
+यह चुनने के लिए कि स्टाइल के नियम किन एलीमेंट्स पर लागू होते हैं, आप HTML कोड में उन तत्वों के लिए `class` **attribute** जोड़ते हैं: एट्रिब्यूट के मान के रूप में क्लास का नाम डालें, **बिना** बिंदु, इस तरह:
 
 ```html
   class="myAwesomeClass"
@@ -50,7 +50,7 @@ To choose which elements the style rules apply to, you add the `class` **attribu
 
 --- /collapse ---
 
- + Ready to try another class? Add the following CSS code to `styles.css`:
+ + एक और क्लास इस्तेमाल करने के लिए तैयार हैं? निम्नलिखित CSS कोड को `styles.css` में जोड़ें:
 
 ```css
   .stylishBox {
@@ -63,15 +63,15 @@ To choose which elements the style rules apply to, you add the `class` **attribu
   }
 ```
 
-+ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Conservation page of my website, like this: `<section class="stylishBox">`.
++ फिर, अपनी वेबसाइट के एक अलग पृष्ठ पर, वहाँ कुछ एलीमेंट्स के लिए क्लास जोड़ें। मैं इसे अपनी वेबसाइट के संरक्षण पृष्ठ पर `section` एलीमेंट्स जोड़ने में जा रहा हूँ, जैसे: `<section class="stylishBox">`।
 
-It looks great, but now my sections are all squashed together.
+यह बहुत अच्छा लग रहा है, लेकिन अब मेरे अनुभागों को एक साथ जोड़ दिया गया है।
 
-![Nice looking sections squashed together](images/squashedSections.png)
+![अच्छे लग रहे अनुभाग एक साथ](images/squashedSections.png)
 
-You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+आप जितने चाहें उतने CSS क्लासेस को एक एलीमेंट पर लगा सकते हैं। बस उन सभी क्लासेस के नाम रिक्त स्थान के साथ अलग अलग करके लिखें जिन्हें आप `class` एट्रिब्यूट के अंदर उपयोग करना चाहते हैं (याद रखें, बिंदु के बिना!)
 
-+ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
++ चलिए अनुभागों को कुछ मार्जिन और पैडिंग देने के लिए एक और CSS क्लास बनाते हैं। `styles.css` फ़ाइल में, निमलिखित CSS क्लास बनाएँ:
 
 ```css
   .someSpacing {
@@ -80,37 +80,37 @@ You can apply as many CSS classes to an element as you like. Just write the name
   }
 ```
 
-+ In your `html` code, add the new class to each of the elements you were working on, like this:
++ अपने `html` कोड में, इस तरह से काम कर रहे एलीमेंट्स में से प्रत्येक में नई क्लास जोड़ें:
 
 ```html
   <section class="stylishBox someSpacing">
 ```
 
-![Sections with margin and padding added](images/sectionsWithSpacing.png)
+![मार्जिन और पैडिंग के साथ अनुभाग](images/sectionsWithSpacing.png)
 
-So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
+तो CSS क्लासेस आपको **चुनने** देते हैं कौन से एलीमेंट्स को स्टाइल करना है, और आप उन्हीं स्टाइल नियमों को आपकी मर्ज़ी के एलीमेंट्स पर **दोबारा उपयोग** कर सकते हैं।
 
-+ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
++ `index.html`पर जाएँ और `stylishBox` क्लास को `main ` एलीमेंट या पृष्ठ पर किसी और एलीमेंट से जोड़ें। आप इसे बाद में फिर से हटा सकते हैं!
 
 ```html
     <main class="stylishBox">   
 ```
 
-Here's what my home page looks like with the CSS class. I've also added the `topDivider` and `someSpacing` classes to the `img` tag with the picture of the barn owl.
+मेरा मुख पृष्ठ CSS क्लास के साथ ऐसा दिखता है। मैंने खलिहान उल्लू की तस्वीर वाले `img` टैग में `topDivider` और `someSpacing` क्लासेस भी जोड़े हैं।
 
-![CSS classes being used on the home page](images/homePageWithClasses.png)
+![मुख पृष्ठ पर CSS क्लासेस का उपयोग किया जाता हुआ](images/homePageWithClasses.png)
 
 --- challenge ---
 
-## Challenge: make some new classes
+## चुनौती: कुछ नई क्लासेस बनाएं
 
-+ Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
++ CSS **classes**का उपयोग करें अपनी वेबसाइट के लिए कुछ अलग चित्र आकारों को परिभाषित करने के लिए, उदाहरण के लिए `.smallPictures` और `.mediumPictures`। फिर अपने प्रत्येक `img` एलीमेंट से `width` एट्रिब्यूट निकालें और इसके बजाय उपयुक्त क्लास जोड़ें।
 
 --- hints ---
 
 --- hint ---
 
-You can make a CSS class that defines just the width of an element like this:
+आप एक CSS क्लास बना सकते हैं जो इस तरह से किसी एलीमेंट की चौड़ाई को परिभाषित करता है:
 
 ```css
   .smallPictures {
@@ -122,19 +122,19 @@ You can make a CSS class that defines just the width of an element like this:
 
 --- hint ---
 
-Here's an `img` tag with a `width` attribute:
+यहाँ एक `img` टैग है `width` attribute के साथ:
 
 ```html
   <img src="barn-owl.jpg" alt="A barn owl" width="100px" />         
 ```
 
-When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
+जब आप `width` एट्रिब्यूट हटा के इसके बजाय CSS क्लास के साथ आकार को नियंत्रित करते हैं, तो यह ऐसा दिखता है:
 
 ```html
   <img src="barn-owl.jpg" class="smallPictures" alt="A barn owl" />         
 ```
 
-By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
+CSS क्लास का उपयोग करके, आप आसानी से अपनी स्टाइल शीट(style sheet) में कोड की केवल एक लाइन बदलकर सभी चित्रों की चौड़ाई बदल सकते हैं!
 
 --- /hint ---
 
