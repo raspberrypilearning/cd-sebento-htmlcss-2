@@ -1,16 +1,16 @@
-## Automatically adjust the size
+## स्वचालित रूप से आकार नियमित करें
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+अब तक आप चीजों का आकार सेट करने के लिए, ** पिक्सेल (pixel) ** का उपयोग कर रहे हैं, उदाहरण के लिए ` 10px ` इस कार्ड पर आप अन्य मापों के बारे में जानेंगे जिनका आप उपयोग कर सकते हैं।
 
-+ Go to `index.html` and find the `img` element with the picture of the barn owl, or find another `img` tag on your website.
++ `index.html`पर जाएँ और खलिहान के उल्लू वाले `img` एलीमेंट को ढूंढें, या कोई दूसरा `img` टैग अपनी वेबसाइट पर ढूंढें।
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ `width` एट्रिब्यूट मिटा दीजिये यदि यह वहां है, और एलीमेंट को `id` दें, अगर यह पहले से ही नहीं है।
 
 ```html
   <img src="barn-owl.jpg" id="owly" alt="A barn owl" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ अपनी CSS फ़ाइल में, आपकी तस्वीर के लिए नीचे दिखाए गए अनुसार `width` प्रॉपर्टी परिभाषित करें (यदि आपने पहले कार्ड पर ऐसा नहीं किया है आपको `id` के साथ CSS खंड बनाने की आवश्यकता हो सकती है)।
 
 ```css
   #owly {
@@ -19,25 +19,25 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
   }
 ```
 
-Note: 50% (50 percent) is **half**.
+नोट: 50% (50 प्रतिशत) **आधा** है।
 
-+ Try resizing your browser window and watch what happens to the picture.
++ अपनी ब्राउज़र विंडो का आकार बदलने की कोशिश करें और देखें कि तस्वीर कैसे बदलती है।
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+आपको यह दिखना चाहिए कि जब आप विंडो को बड़ा और छोटा करते हैं तो तस्वीर बड़ी और छोटी हो जाती है। ऐसा इसलिए है क्योंकि यह **main** एलीमेंट की चौड़ाई का 50% हिस्सा ले रहा है (जो लगभग पेज की चौड़ाई है)।
 
 --- collapse ---
 ---
-title: How does it work?
+title: यह कैसे काम करता है?
 ---
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+जब आप पिक्सेल (pixel) में किसी का आकार सेट करते हैं, तो आप एक सटीक आकार सेट कर रहे हैं और यह परिवर्तित नहीं होता है। इसे **absolute** माप कहा जाता है ।
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+चीजों के आकार को सेट करने का एक और तरीका है **relative** माप, जिसमें आकार इस बात पर निर्भर करता है कि एक दूसरे से तुलना में एलीमेंट कितने बड़े हैं। फिर, जब भी कोई चीज़ आकार बदलती है, तो बाकी सभी चीजें अपने आप ही आकार बदल देंगी और समान **अनुपात** रखेंगी।
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+जब आप **relative** माप का उपयोग कर रहे हों, यह जानना महत्वपूर्ण है कि आपके एलीमेंट का **parent** कौन सा एलीमेंट है? जनक वह चीज है जो आपके तत्व के अंदर है, और यह वह है जो माप के संबंध में होगा। उदाहरण के लिए, ऊपर की तस्वीर का जनक `article` एलीमेंट है, क्योंकि ` img ` एलीमेंट `<article></article>` टैग के बीच में है।
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+यदि आप एलीमेंट की `चौड़ाई ` `100% ` निर्धारित करते हैं, तो यह जनक के कंटेनर के रूप में एक ही चौड़ाई का हो जाएगा।
 
 --- /collapse ---
 
-+ Experiment with different numbers in front of the `%`.
++ `%` के सामने विभिन्न संख्याओं के साथ प्रयोग करें।
