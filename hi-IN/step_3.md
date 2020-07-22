@@ -1,55 +1,55 @@
-## All the colours!
+## सभी रंग!
 
-As you have seen before, you can type in many different colour names as words, and the browser will recognise them. But a more common way to set colours is to use something called **hex codes** ('hex' is short for **hexadecimal**, a special way of counting).
+जैसा कि आपने पहले देखा है, आप शब्दों के रूप में कई अलग-अलग रंगों के नाम टाइप कर सकते हैं, और ब्राउज़र उन्हें पहचान लेगा। लेकिन रंगों को सेट करने का एक सामान्य तरीका है **हेक्स कोड** का उपयोग करना ('हेक्स', **हेक्साडेसिमल** का संक्षिप्त रूप, गिनती का एक विशेष तरीका है)।
 
-+ Take a look at your **style sheet**. That's the file that has `.css` in the name.
++ अपने ** स्टाइल शीट (style sheet) ** पर एक नज़र डालें। यह वह फ़ाइल है जिसके नाम में `.css ` है ।
 
-+ Inside the CSS rules for `body`, set the background colour to the hex code `#7B68EE`:
++ `body` के लिए CSS नियमों के अंदर, पृष्ठभूमि के रंग को हेक्स कोड `#7B68EE` पर सेट करें।
 
 ```html
   background-color: #7B68EE;
 ```
 
-Note: If you are using a Mac, you can type `#` by press the <kbd>alt</kbd> and the <kbd>3</kbd> keys at the same time.
+नोट: यदि आप एक Mac का उपयोग कर रहे हैं, तो आप <kbd>alt</kbd> और <kbd>3</kbd> को एक साथ दबा कर `#` टाइप कर सकते हैं ।
 
-Your website should now have a purple background.
+आपकी वेबसाइट पर अब बैंगनी पृष्ठभूमि होनी चाहिए.
 
 ![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
 
-+ Not a fan of purple? Go to [this web page](http://dojo.soy/se-html2-colours){:target="_blank"} and choose another colour for your style sheet — instead of typing the name of the colour, type in the hex code.
++ बैंगनी के प्रशंसक नहीं? [इस वेब पृष्ठ](http://dojo.soy/se-html2-colours){:target="_blank"} पर जाएं और अपनी स्टाइल शीट (style sheet) के लिए कोई रंग चुनें - रंग का नाम टाइप करने के बजाए, हेक्स कोड टाइप करें।
 
 ![](images/ColorNamesHex.png)
 
-Colour codes allow you to create any colour, even if it's not on any list of colour names.
+रंग कोड आपको कोई भी रंग बनाने की अनुमति देते हैं, भले ही वह किसी भी रंग के नामों की सूची में न हो।
 
-+ Try making up your own colour code. It must start with a `#`. This tells the browser that it is a hex code instead of a colour name. The rest of the code is made up of six characters. They can be  any number from **0 to 9** and any letter from **A to F**.
++ अपना स्वयं का रंग कोड बनाने का प्रयास करें। इसकी शुरुआत `#` से होनी चाहिए। यह ब्राउज़र को बताता है कि यह रंग के नाम के बजाय एक हेक्स कोड (hex code) है। बाकी का कोड छह अक्षरों से बना है। वे ** 0 से 9 ** तक कोई भी संख्या हो सकती है और ** A से F ** तक कोई भी अक्षर।
 
 --- collapse ---
 ---
-title: How does it work?
+title: यह कैसे काम करता है?
 ---
 
-Every colour is made by mixing different amounts of **red**, **green**, and **blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is the minimum, and `FF` is the maximum.
+हर रंग **लाल**, **हरे** और **नीले** की विभिन्न मात्राओं को मिलाकर बनाया जाता है । आप कभी-कभी इसे ** RGB** लिखा देखेंगे | इनमें से प्रत्येक रंग आपके HEX कोड में छह अंकों में से दो के द्वारा दर्शाया जाता है। ` 00 ` न्यूनतम है, और ` FF ` अधिकतम है।
 
-**Hexadecimal** is a way of counting that makes numbers shorter to write by using the letters A-F as extra digits. The number `255` is written as `FF` in hexadecimal. You don't need to worry about learning to count with hexadecimal numbers. Instead, experiment with different hex codes to get used to using them.
+**हेक्साडेसिमल** गिनती का एक तरीका है जो A-F अक्षरों को अतिरिक्त अंकों के रूप में लिखकर संख्याओं को छोटा बनाता है। हेक्साडेसिमल में, संख्या ` 255 ` ` FF ` के रूप में लिखा गया है । आपको हेक्साडेसिमल संख्याओं को सीखने के बारे में चिंता करने की आवश्यकता नहीं है। इसके बजाय, विभिन्न हेक्स कोड के साथ प्रयोग करके उन्हें उपयोग करने का प्रयास करें ।
 
-* Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
+* यहाँ आपकी वेबसाइट पर आज़माने के लिए कुछ बुनियादी रंग हैं। ` FF ` के बजाय छोटी संख्या डालने का प्रयास करें, यह देखने के लिए कि शेड कैसे बदलते हैं।
 
-|      | R  | G  | B  |   Result    |
+|      | R  | G  | B  |   परिणाम    |
 | ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
-| \# | FF | 00 | FF |   Magenta   |
-| \# | 00 | FF | FF |    Cyan     |
-| \# | FF | 8c | 00 | Dark orange |
+| \ # | FF | 00 | 00 |     लाल     |
+| \ # | 00 | FF | 00 |     हरा     |
+| \ # | 00 | 00 | FF |    नीला     |
+| \ # | FF | FF | 00 |    पीला     |
+| \ # | FF | 00 | FF |   मैजेंटा   |
+| \ # | 00 | FF | FF |    सियान    |
+| \ # | FF | 8c | 00 | गहरा नारंगी |
 
 --- /collapse ---
 
-Mixing the perfect colour can take a lot of experimenting. Luckily, there are plenty of online colour picking tools that help you get the hex code for any colour you want.
+सही रंग मिलाने के लिए बहुत सारे प्रयोग करने पड़ेंगे। सौभाग्य से, ऑनलाइन रंग भरने वाले बहुत सारे उपकरण हैं जो आपको किसी भी रंग के लिए हेक्स कोड प्राप्त करने में मदद करते हैं।
 
 ![](images/W3ColorPicker.png)
 
-+ Try out [this colour picker](http://dojo.soy/se-html2-picker){:target="_blank"} to choose some hex colour codes to use for the rest of the styles on your website.
++ अपनी वेबसाइट पर बाकी स्टाइल्स के लिए उपयोग करने के लिए कुछ हेक्स(HEX) रंग कोड चुनने के लिए [इस रंग बीनने](http://dojo.soy/se-html2-picker){:target="_blank"} का उपयोग करें।
