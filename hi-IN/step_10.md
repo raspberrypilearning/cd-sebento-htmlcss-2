@@ -1,8 +1,8 @@
-## Add hover effects
+## होवर प्रभाव जोड़ें
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
+जब आप माउस कर्सर के साथ चीजों पर मँडराते हैं तो अच्छी चीज़ें करके आप अपनी वेबसाइट को और अधिक **इंटरैक्टिव** बना सकते हैं!
 
-+ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
++ `img` एलीमेंट्स के लिए अपने CSS नियम खोजें, या यदि आपके पास कोई नहीं है तो कुछ बनाएं। एक बॉर्डर जोड़ें, और फिर नीचे नियमों का एक नया खंड जोड़ें:
 
 ```css
   img {
@@ -13,22 +13,22 @@ You can make your website more **interactive** by making cool stuff happen when 
   }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**.
+आपने अभी-अभी एक विशेष प्रकार के CSS खंड का उपयोग किया है जिसे **pseudo-class** कहा जाता है।
 
 --- collapse ---
 ---
-title: How does it work?
+title: यह कैसे काम करता है?
 ---
 
-A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+एक **pseudo-class** **class** से थोड़ा अलग है जो आप खुद बनाते हैं। आप इसे `:` से पहचान सकते हैं।
 
-Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+Pseudo-classes HTML एलीमेंट्स में निर्मित होती हैं: आप अपने HTML कोड में कुछ भी अतिरिक्त जोड़े बिना अपनी स्टाइल शीट(style sheet) में किसी भी एलीमेंट, क्लास या `id` सिलेक्टर्स में `:hover` स्टाइल नियम जोड़ सकते हैं।
 
 --- /collapse ---
 
-+ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
++ आपको क्या लगता है क्या होगा? जांचें कि आपकी वेबसाइट पर कौनसी पृष्ठों पर चित्र हैं, (एक चित्र जोड़ें यदि कोई चित्र नहीं है!), फिर जानने के लिए उस चित्र पर अपना कर्सर घुमाएं!
 
-+ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
++ चलो इस नए `:hover` pseudo-class का उपयोग एक CSS क्लास के साथ करें ताकि जब आप उन पर मँडराएँ तो लिंक चमक उठे! अपने वेब पृष्ठ पर एक लिंक जोड़ें और क्लास का नाम रखने के लिए एक एट्रिब्यूट शामिल करें। याद रखें, लिंक को `<a>` टैग का उपयोग करके परिभाषित किया जाता है, जैसे:
 
 ```html
     <p>
@@ -37,7 +37,7 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
     </p>
 ```
 
-+ Add the following code to your style sheet, then run your code to see your lovely links in action.
++ अपनी स्टाइल शीट(style sheet) में निम्न कोड जोड़ें, फिर प्यारे लिंक को काम करते हुए देखने के लिए अपना कोड चलाएं।
 
 ```css
   .niceLinks {
@@ -49,11 +49,11 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
   }
 ```
 
-+ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
++ क्यों न `class="niceLinks"` एट्रिब्यूट को अपने मेन्यू बार के सभी लिंक से जोड़ें?
 
-You can combine all of these tricks with animations too!
+आप इन सभी ट्रिक्स को एनिमेशन के साथ भी जोड़ सकते हैं!
 
-+ Find the CSS block for the picture of the barn owl again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
++ फिर से खलिहान के उल्लू की तस्वीर के लिए CSS खंड ढूंढें (या जिस भी तस्वीर पर आप पहले काम कर रहे थे)। अपनी स्टाइल शीट(style sheet) फ़ाइल में निम्न कोड जोड़ें:
 
 ```css
   #owly {
@@ -75,21 +75,21 @@ You can combine all of these tricks with animations too!
   }
 ```
 
-+ Can you guess what will happen?
++ क्या आप अनुमान लगा सकते हैं कि क्या होगा?
 
-+ Move the cursor over the picture to find out!
++ पता लगाने के लिए तस्वीर पर कर्सर ले जाएँ!
 
 --- challenge ---
 
-## Challenge: make glowing rainbow links
+## चुनौती: चमकते इंद्रधनुष लिंक बनाएं
 
-+ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
++ आपके मेन्यू के लिंक के ऊपर जब कर्सर मंडराए तो उसका रंग बदलते रहने के लिए क्या आप पिछले कार्ड से `rainbowGlow` एनीमेशन का उपयोग कर सकते हैं?
 
 --- hints ---
 
 --- hint ---
 
-Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
+नीचे `rainbowGlow` एनीमेशन के लिए कोड है। इसमें पांच चरण परिभाषित हैं, और यह प्रत्येक चरण में एक अलग टेक्स्ट रंग निर्धारित करता है। आप अधिक जोड़ सकते हैं या उन्हें बदल सकते हैं जैसा आप चाहें!
 
 ```css
     @keyframes rainbowGlow {
@@ -115,13 +115,13 @@ Below is the code for the `rainbowGlow` animation. It has five stages defined, a
 
 --- hint ---
 
-To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
+किसी चीज़ को एनिमेट करने के लिए, आप तीन `एनीमेशन` प्रॉपर्टीज को उसके स्टाइल नियमों में जोड़ते हैं जैसा कि आपने ऊपर किया है। हमेशा सुनिश्चित करें कि `animation-name` आपके द्वारा उपयोग किए जाने वाले एनीमेशन के नाम से मेल खाता है।
 
 --- /hint ---
 
 --- hint ---
 
-You can add `hover` effects directly to the `nav` menu like this:
+आप इस तरह से `nav` मेन्यू में सीधे `hover` प्रभाव जोड़ सकते हैं:
 
 ```css
   nav ul li a:hover {
@@ -131,7 +131,7 @@ You can add `hover` effects directly to the `nav` menu like this:
   }
 ```
 
-Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
+या, यदि आप अपनी वेबसाइट के अन्य लिंकों को इंद्रधनुष रंगों से चमकना चाहते हैं, तो आप इस तरह से `.niceLinks` क्लास के लिए एनीमेशन जोड़ सकते हैं:
 
 ```css
   .niceLinks:hover {
