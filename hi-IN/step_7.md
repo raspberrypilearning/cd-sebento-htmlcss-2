@@ -1,70 +1,70 @@
-## See the code on other websites!
+## अन्य वेबसाइटों पर कोड देखें!
 
-**Note:** To complete this step, you need use one of these web browsers: Chrome, Firefox, or Internet Explorer/Edge. If you don't have access to one of them, you can just continue on to the next card.
+**नोट: ** इस चरण को पूरा करने के लिए, आपको इनमें से किसी एक वेब ब्राउज़र का उपयोग करने की आवश्यकता है: Chrome, Firefox, या Internet Explorer/Edge। यदि आपके पास इनमें से कोई भी ब्राउज़र नहीं है, तो आप अगले कार्ड पर जा सकते हैं।
 
-On this card you'll learn how to sneak a peek at the code of any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
+इस कार्ड पर आप सीखेंगे कि ** inspector tool ** का उपयोग करके किसी भी वेबसाइट के कोड की एक झलक कैसे पा सकते हैं, और आपको यह भी पता चलेगा कि कुछ बदलाव कैसे किए जा सकते हैं जो केवल आप देख सकते हैं!
 
-+ Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser.
++ शुरू करने से पहले, सुनिश्चित करें कि आपने परियोजना का काम सहेज लिया है। फिर अपने ब्राउज़र में refresh icon पर क्लिक करके अपनी वेबसाइट को रिफ्रेश करें।
 
-+ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using. If you're having trouble finding a menu option, just ask someone at your Dojo for help.)
++ अपने वेब पृष्ठ पर (वास्तविक पृष्ठ, कोड नहीं) उस टेक्स्ट को हाइलाइट करें जिसे आपने पिछले कार्ड में जोड़ा था, फिर उस पर राइट-क्लिक करें और दिखाई देने वाले मेन्यू से **Inspect** विकल्प का चयन करें। (आपके द्वारा उपयोग किए जा रहे ब्राउज़र के आधार पर विकल्प को 'Inspect Element' या समान कहा जा सकता है। यदि आपको मेन्यू विकल्प खोजने में परेशानी हो रही है, तो बस अपने Dojo में किसी से मदद के लिए पूछें।)
 
-![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
+![हाइलाइट किए गए टेक्स्ट पर Inspect विकल्प का चयन करना](images/highlightTextAndInspect.png)
 
-A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
+आपके वेब ब्राउज़र में बहुत सारे टैब और कोड के साथ एक नया बॉक्स दिखाई देगा:** developer tools** या संक्षेप में ** dev tools **। यहां आप जिस चीज पर क्लिक करते हैं, उसके लिए कोड और साथ ही पूरे पेज के लिए कोड देख सकते हैं!
 
-### Inspecting the HTML code
+### HTML कोड का निरीक्षण
 
-+ Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
++ उस टैब को देखें जो आपको पृष्ठ के लिए HTML कोड दिखाता है (इसे 'Elements' या 'Inspector' कहा जा सकता है)। कोड ज्यादातर वैसा ही दिखना चाहिए जैसे आपने अपनी HTML फ़ाइल में टाइप किया था! छिपे हुए कोड का विस्तार करने के लिए आप दाईं ओर के छोटे त्रिकोणों पर क्लिक कर सकते हैं।
 
-![Inspector showing a text element](images/inspectTextHtml.png)
+![एक टेक्स्ट एलीमेंट दिखाने वाला निरीक्षक](images/inspectTextHtml.png)
 
-+ Double-click on the text in between the tags. You should be able to edit it now! Type something in and press <kbd>Enter</kbd>.
++ टैग के बीच में टेक्स्ट पर डबल-क्लिक करें। आप अब इसे संपादित करने में सक्षम होने चाहिए! कुछ टाइप करें और <kbd> Enter </kbd>दबाएं।
 
-![Editing text using the inspector tool](images/inspectEditHtmlText.png)
+![Inspector tool का उपयोग करके टेक्स्ट का संपादन](images/inspectEditHtmlText.png)
 
-+ Do you see the text update on your website? Note: only you can see these changes.
++ क्या आप अपनी वेबसाइट पर टेक्स्ट अपडेट देख पा रहे हैं? नोट: केवल आप इन परिवर्तनों को देख सकते हैं।
 
-![Website with edited text](images/inspectEditHtmlTextResult.png)
+![संपादित टेक्स्ट के साथ वेबसाइट](images/inspectEditHtmlTextResult.png)
 
-+ Now **reload** the page and watch what happens. Your changes should disappear!
++ अब पेज को **reload** करें और देखो क्या होता है। आपके परिवर्तन गायब हो जाने चाहिए!
 
-+ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
++ Dev tools बॉक्स के ऊपरी बाएं कोने में, एक तीर के साथ एक छोटे आयत की तरह दिखने वाले आइकन पर क्लिक करें। अब आप अपने कर्सर को वेब पृष्ठ पर ले जा सकते हैं, और HTML इंस्पेक्टर आपको उसका वर्णन करने वाला कोड दिखाएगा।
 
-![The icon to select elements](images/inspectorSelectIcon.png) ![Selecting an element](images/inspectorSelectElement.png)
+![एलीमेंट्स को चुनने करने के लिए आइकन](images/inspectorSelectIcon.png) ![किसी एलीमेंट का चयन करना](images/inspectorSelectElement.png)
 
-### Inspecting the CSS code
+### CSS कोड का निरीक्षण
 
-+  Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
++  चलिए अब CSS कोड पर एक नजर डालते हैं। Developer tools में ** Styles ** टैब देखें (इसे 'Style Editor' या समान कहा जा सकता है)। आपको CSS नियमों का एक समूह दिखना चाहिए, जिसमें, ` #myCoolText ` पैराग्राफ के लिए बनाए गए शामिल हैं।
 
-![Viewing the CSS code for an element](images/inspectCssBlock.png)
+![किसी एलीमेंट के लिए CSS कोड देखना](images/inspectCssBlock.png)
 
-+ In the `#myCoolText` rules, click on the value next to the `color` property. Try typing in a different value. Watch the text on your web page change colour straight away!
++ `#myCoolText` नियम में, `color` प्रॉपर्टी के बगल में मान पर क्लिक करें। कोई भिन्न मान टाइप करने का प्रयास करें। अपने वेब पृष्ठ पर टेक्स्ट का रंग परिवर्तन देखें!
 
-![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
+![CSS इंस्पेक्टर का उपयोग करके टेक्स्ट रंग का संपादन](images/inspectEditCssColor.png)
 
-Note: you can also click the coloured square to change the colour using a colour picker tool.
+नोट: आप colour picker tool का उपयोग करके रंग बदलने के लिए रंगीन वर्ग पर भी क्लिक कर सकते हैं।
 
-+ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press <kbd>Enter</kbd>:
++ रंग के बाद की जगह में क्लिक करें। एक नई पंक्ति शुरू होती है, जहां आप अधिक CSS टाइप कर सकते हैं। निम्नलिखित टाइप करें और <kbd> Enter </kbd> दबाएं:
 
 ```css
   background-color: #660066;
 ```
 
-You should see the background change on that piece of text.
+आपको पृष्ठ के उस टुकड़े पर पृष्ठभूमि में परिवर्तन दिखना चाहिए।
 
-![Adding the background colour property](images/inspectorEditingBgCol.png) ![The new background colour](images/inspectorEditBgResult.png)
+![बैकग्राउंड कलर प्रॉपर्टी को जोड़ना](images/inspectorEditingBgCol.png) ![नई पृष्ठभूमि का रंग](images/inspectorEditBgResult.png)
 
 --- collapse ---
 ---
-title: How does it work?
+title: यह कैसे काम करता है?
 ---
 
-When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
+जब आप developer tools का उपयोग करके वेबसाइट कोड बदलते हैं, तो आप **अस्थायी रूप** से यह **आपके ब्राउज़र में ** जैसा दिखता है उसे बदल रहे होते हैं । आप वास्तव में उन फ़ाइलों को नहीं बदल रहे हैं जो वेबसाइट को बनाती हैं।
 
-When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). That's why your changes disappear.
+जब आप पृष्ठ को रीफ्रेश करते हैं, तो आप वेबसाइट को फिर से इसकी फाइलों (इंटरनेट या अपने कंप्यूटर पर) से लोड कर रहे हैं। इसलिए आपके परिवर्तन गायब हो जाते हैं।
 
-Now that you know that, you can have some fun messing with the code on other websites!
+अब जब आप यह जान गयें हैं, तो आप अन्य वेबसाइटों पर कोड के साथ कुछ गड़बड़ करके मज़े कर सकते हैं!
 
 --- /collapse ---
 
-+ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.
++ किसी अन्य वेबसाइट पर कोड को देखने के लिए इन उपकरणों का उपयोग करने का प्रयास करें। आप चाहें तो बदलाव भी कर सकते हैं! याद रखें, केवल आप अपने द्वारा किए गए परिवर्तनों को देख सकते हैं, और जब आप पेज को रीफ्रेश करेंगे तो सब कुछ रीसेट हो जाएगा।
