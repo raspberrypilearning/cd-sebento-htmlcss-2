@@ -1,7 +1,7 @@
 ---
-title: Bird watch website 2.0
+title: बर्ड वॉच वेबसाइट 2.0
 hero_image: images/banner.png
-description: Take your website design skills further!
+description: अपने वेबसाइट डिजाइन कौशल को और आगे ले जाएं!
 theme: navy #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2 #possible values: 1, 2 or 3
 listed: true
@@ -17,22 +17,22 @@ version: 3.0.0
 last_tested: "2018-04-06"
 steps:
   - 
-    title: Introduction
+    title: भूमिका
   - 
-    title: Getting set up
+    title: शुरू करने के लिए
   - 
-    title: All the colours!
+    title: सभी रंग!
   - 
-    title: Organising your page
+    title: अपने पृष्ठ का आयोजन
   - 
-    title: Design some themes
+    title: कुछ थीम डिजाइन करें
   - 
-    title: Individual style
+    title: व्यक्तिगत स्टाइल (style)
   - 
-    title: See the code on other websites!
+    title: अन्य वेबसाइटों पर कोड देखें!
   - 
-    title: Automatically adjust the size
+    title: स्वचालित रूप से आकार नियमित करें
   - 
-    title: Animation
+    title: एनीमेशन
   - 
-    title: Add hover effects
+    title: होवर प्रभाव जोड़ें
