@@ -7,7 +7,7 @@ So far you've used **headings** and **paragraphs** to make your **content** look
 title: What is content?
 ---
 
-**Content** is all the stuff on your web page, such astext and pictures.
+**Content** is all the stuff on your web page, such as text and pictures.
 
 --- /collapse ---
 
