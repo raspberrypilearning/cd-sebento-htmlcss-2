@@ -2,8 +2,8 @@
 title: बर्ड वॉच वेबसाइट 2.0
 hero_image: images/banner.png
 description: अपने वेबसाइट डिजाइन कौशल को और आगे ले जाएं!
-theme: navy #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 2 #possible values: 1, 2 or 3
+theme: navy
+duration: 2
 listed: true
 ingredient: false
 copyedit: true
@@ -14,15 +14,17 @@ site_areas: coderdojo, projects
 hardware: ''
 software: html-css-javascript
 version: 3.0.0
-last_tested: "2018-04-06"
+last_tested: '2018-04-06'
 steps:
-  - title: भूमिका
-  - title: शुरू करने के लिए
-  - title: सभी रंग!
-  - title: अपने पृष्ठ का आयोजन
-  - title: कुछ थीम डिजाइन करें
-  - title: व्यक्तिगत स्टाइल (style)
-  - title: अन्य वेबसाइटों पर कोड देखें!
-  - title: स्वचालित रूप से आकार नियमित करें
-  - title: एनीमेशन
-  - title: होवर प्रभाव जोड़ें
+- title: भूमिका
+  completion: engaged
+- title: शुरू करने के लिए
+- title: सभी रंग!
+- title: अपने पृष्ठ का आयोजन
+- title: कुछ थीम डिजाइन करें
+- title: व्यक्तिगत स्टाइल (style)
+- title: अन्य वेबसाइटों पर कोड देखें!
+- title: स्वचालित रूप से आकार नियमित करें
+- title: एनीमेशन
+  completion: internal
+- title: होवर प्रभाव जोड़ें
