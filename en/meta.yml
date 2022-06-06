@@ -17,14 +17,16 @@ version: 3.0.0
 last_tested: '2018-04-06'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Getting set up
 - title: All the colours!
 - title: Organising your page
+  completion:
+  - engaged
 - title: Design some themes
 - title: Individual style
 - title: See the code on other websites!
 - title: Automatically adjust the size
 - title: Animation
-  completion: internal
 - title: Add hover effects
+  completion:
+  - internal

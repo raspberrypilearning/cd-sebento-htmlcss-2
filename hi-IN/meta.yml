@@ -17,14 +17,16 @@ version: 3.0.0
 last_tested: '2018-04-06'
 steps:
 - title: भूमिका
-  completion: engaged
 - title: शुरू करने के लिए
 - title: सभी रंग!
 - title: अपने पृष्ठ का आयोजन
+  completion:
+  - engaged
 - title: कुछ थीम डिजाइन करें
 - title: व्यक्तिगत स्टाइल (style)
 - title: अन्य वेबसाइटों पर कोड देखें!
 - title: स्वचालित रूप से आकार नियमित करें
 - title: एनीमेशन
-  completion: internal
 - title: होवर प्रभाव जोड़ें
+  completion:
+  - internal
