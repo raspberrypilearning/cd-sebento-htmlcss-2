@@ -27,6 +27,8 @@ steps:
 - title: See the code on other websites!
 - title: Automatically adjust the size
 - title: Animation
-- title: Add hover effects
   completion:
   - internal
+- title: Add hover effects
+  completion:
+  - external
