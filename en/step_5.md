@@ -107,19 +107,6 @@ Here's what my home page looks like with the CSS class. I've also added the `top
 + Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
 
 --- hints ---
-
---- hint ---
-
-You can make a CSS class that defines just the width of an element like this:
-
-```css
-  .smallPictures {
-    width: 100px;
-  }
-```
-
---- /hint ---
-
 --- hint ---
 
 Here's an `img` tag with a `width` attribute:
@@ -137,7 +124,7 @@ When you remove the `width` attribute and control the size with the CSS class in
 By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /challenge ---

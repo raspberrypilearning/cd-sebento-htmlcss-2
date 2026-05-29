@@ -110,7 +110,6 @@ Your web page might not look different yet, but once the content has been organi
 + Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
 
 --- hints ---
-
 --- hint ---
 
 Look at the Conservation page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `conservation.html`:
@@ -163,8 +162,8 @@ Look at the Conservation page of the example project. You'll see that I've added
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 On the next card, you'll design a different theme for each page that's organised into articles and sections!
 
