@@ -86,39 +86,6 @@ You can combine all of these tricks with animations too!
 + Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
 
 --- hints ---
-
---- hint ---
-
-Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
-
-```css
-    @keyframes rainbowGlow {
-        0% {
-            color: #00BFFF;
-        }
-        25% {
-            color: #00FF7F;
-        }
-        50% {
-            color: #eeeeaf;
-        }
-        75% {
-            color: #eeafee;
-        }
-        100% {
-            color: #00BFFF;
-        }
-    }
-```
-   
---- /hint ---
-
---- hint ---
-
-To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
-
---- /hint ---
-
 --- hint ---
 
 You can add `hover` effects directly to the `nav` menu like this:
@@ -143,8 +110,8 @@ Or, if you want to make other links on your website flash rainbow colours too, y
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /challenge ---
 

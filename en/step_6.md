@@ -62,19 +62,6 @@ You can make lots of different effects with gradients. If you want to learn more
 + Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
 
 --- hints ---
-
---- hint ---
-
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
-
-```html
-  <img src="barn-owl.jpg" id="owly" alt="A barn owl" />  		
-```
-
-Choose any `id` name you like.
-
---- /hint ---
-
 --- hint ---
 
 To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
@@ -88,8 +75,8 @@ To define style rules for a specific element, you use the `#` symbol, and the na
 Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
 
 --- /hint ---
-
 --- /hints ---
+
 
 ![A round picture of Tito with a white border](images/pictureIdStyle.png)
 
