@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Take your website design skills further!
 theme: navy
 duration: 2
-listed: true
+listed: false
 ingredient: false
 copyedit: true
 curriculum: ''
